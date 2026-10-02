@@ -24,11 +24,11 @@ pip install -r requirements.txt
 
 Создайте `.env` файл в корне проекта. В нём должны быть:
 ```
-HOST=адрес_БД
-PORT=порт
-NAME=название_БД
-PASSWORD=пароль_к_БД
-USER=имя_пользователя
+DB_HOST=адрес_БД
+DB_PORT=порт
+DB_NAME=название_БД
+DB_PASSWORD=пароль_к_БД
+DB_USER=имя_пользователя
 SECRET_KEY=секретный_ключ_сайта
 ```
 
